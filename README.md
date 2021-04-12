@@ -40,7 +40,7 @@ Greenfoot ist eine Programmiersprache, welche auf Java beruht. Sie wird hauptsä
 Die MyWorldklasse dient zur Definition der allgemeinen Gegebenheiten in unserem Programm. Ein Teil der MyWorldklasse ist ein Bereich mit dem Titel „public MyWorld“, welcher für alle Actor öffentlich Informationen zu den allgemeinen Variablen bereitstellt, auf welche jeder Actor zugreifen kann. In ihm sind bei uns die Variablen „wall“, „rocket“ und „turtle“ definiert und die Position, an welcher sie zu Beginn des Spiels platziert werden.
 Unter dem Methodenteil, mit dem Befehl „private void prepare()“, sind all unsere Wände mit ihrer Länge und Breite definiert und platziert. Das Besondere ist, dass alle Wände in die Klasse des Actors „wall“ fallen und somit die gleichen Eigenschaften haben. Es wird lediglich eine Kopie erstellt, welche am entsprechenden Ort platziert wird. Zu Angabe der Position werden x- und y- Koordinaten benutzt, genau so wie zur Angabe von Breite und Länge. Die Besonderheit bei der Greenfootprogrammierung ist, dass die x-Achse als Spiegelachse für das Koordinatensystem dient. 
 
- <p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/master/Images/MyWorld1.PNG" width="600px">
+ <p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/MyWorld1.PNG" width="600px">
 
 <h2 id="actor">Actor</h2>
 
