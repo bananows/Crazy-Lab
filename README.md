@@ -55,15 +55,19 @@ Die Turtleklasse ist die erste Unterklasse der Actor und sie definiert unseren H
 Die Bewegung nach vorne ist dauerhaft mit „move(1)“ bestimmt. 
 Die Bewegung in die bestimmten Richtungen haben wir mit „if(Greenfoot.isKeyDown(„Taste“)) und „setRotation(„Gradzahl“) programmiert.
 Das Ereignis im Falle einer Kollision haben wir mit „if(isTouching(name.class)) und „setLocation(x,y)“ definiert. 
-<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Turtle.PNG" width="800px">
+<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Turtle.PNG" width="900px">
 
 <h2 id="wall">Wall</h2>
 
 Die Wallklasse ist die zweite Unterklasse der Actor und sie definiert die Wände unseres Labyrinths. Durch Rechtsklick und das Klicken auf „new Wall“ kann eine neue Wand mit einer selbst bestimmbaren Breite und Länge kreiert werden. Dazu gibt man einfach die gewünschten x- und y- Werte ein.
 Durch den Befehl „this.height“ und „this.width“ wird angegeben, dass Höhe und Breite bei jedem Objekt einzeln abgefragt werden müssen durch ein Dialogfenster. Die angegebenen Werte sind „neue Höhe und Breite“, welche später zur Skalierung des Bildes der Wand genutzt werden mit dem Befehl „getImage().scale(width, height)“. 
+<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Wall.PNG" width="900px">
+
 
 <h2 id="rocket">Rocket</h2>
 
 Die Rocketklasse ist die dritte und letzte Unterklasse der Actor und sie definiert die Rakete und somit das Ziel unseres Spiels. Die Position der Rakete wird bereits in der MyWorld-Klasse definiert. In der Rocketklasse wird ausschließlich die Größe der Rakete und die Richtung, in welche sie zeigt, definiert.
 Dazu haben wir erneut den „getImage().scale(x, y)“ und den „setRotation(Gradzahl)“ Befehl benutzt.
+<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Rocket.PNG" width="900px">
+
 
