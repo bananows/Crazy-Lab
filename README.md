@@ -54,3 +54,6 @@ Das Ereignis im Falle einer Kollision haben wir mit „if(isTouching(name.class)
 
 <h2 id="wall">Wall</h2>
 
+Die Wallklasse ist die zweite Unterklasse der Actor und sie definiert die Wände unseres Labyrinths. Durch Rechtsklick und das Klicken auf „new Wall“ kann eine neue Wand mit einer selbst bestimmbaren Breite und Länge kreiert werden. Dazu gibt man einfach die gewünschten x- und y- Werte ein.
+Durch den Befehl „this.height“ und „this.width“ wird angegeben, dass Höhe und Breite bei jedem Objekt einzeln abgefragt werden müssen durch ein Dialogfenster. Die angegebenen Werte sind „neue Höhe und Breite“, welche später zur Skalierung des Bildes der Wand genutzt werden mit dem Befehl „getImage().scale(width, height)“. 
+
