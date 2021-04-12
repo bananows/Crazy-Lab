@@ -32,3 +32,11 @@ Unser Spiel ist ein Labyrinthspiel, dessen Hauptcharakter eine Schildkröte ist,
 
 Greenfoot ist eine Programmiersprache, welche auf Java beruht. Sie wird hauptsächlich zu Ausbildungs- und Lehrzwecken benutzt, dies erfolgt meistens in Schulen und Universitäten. Da Greenfoot jedoch auf Java beruht, ist es auch möglich eher komplexere Programmierungen zu kreieren. Greenfoot wurde mit der Unterstützung von Oracle an dem King´s College London entwickelt. Als Hauptentwickler zählt Michael Kölling. Die erste Version von Greenfoot wurde 2006 veröffentlicht. Greenfoot bietet im Programm selbst viele Tutorialvideos und Erklärungen an. Das Besondere ist ein Klassendiagramm , welches dem Programmierer die Übersicht vereinfachen soll und somit die verschiedenen Klassen visualisieren. Dies hilft gerade Programmierneulingen die objektbasierte Programmiersprache Java zu lernen, da sie im Gegensatz zum reinen Code in anderen Programmierumgebungen durch Struktur und Visualisierung Abhilfe schafft. Die Erklärungen sind in Englisch und in Deutsch verfügbar.
 
+
+<h2 id="programmierung">Programmierung</h2>
+
+<h2>MyWorld</h2>
+
+Die MyWorldklasse dient zur Definition der allgemeinen Gegebenheiten in unserem Programm. Ein Teil der MyWorldklasse ist ein Bereich mit dem Titel „public MyWorld“, welcher für alle Actor öffentlich Informationen zu den allgemeinen Variablen bereitstellt, auf welche jeder Actor zugreifen kann. In ihm sind bei uns die Variablen „wall“, „rocket“ und „turtle“ definiert und die Position, an welcher sie zu Beginn des Spiels platziert werden.
+Unter dem Methodenteil, mit dem Befehl „private void prepare()“, sind all unsere Wände mit ihrer Länge und Breite definiert und platziert. Das Besondere ist, dass alle Wände in die Klasse des Actors „wall“ fallen und somit die gleichen Eigenschaften haben. Es wird lediglich eine Kopie erstellt, welche am entsprechenden Ort platziert wird. Zu Angabe der Position werden x- und y- Koordinaten benutzt, genau so wie zur Angabe von Breite und Länge. Die Besonderheit bei der Greenfootprogrammierung ist, dass die x-Achse als Spiegelachse für das Koordinatensystem dient. 
+
