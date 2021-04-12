@@ -55,7 +55,7 @@ Die Turtleklasse ist die erste Unterklasse der Actor und sie definiert unseren H
 Die Bewegung nach vorne ist dauerhaft mit „move(1)“ bestimmt. 
 Die Bewegung in die bestimmten Richtungen haben wir mit „if(Greenfoot.isKeyDown(„Taste“)) und „setRotation(„Gradzahl“) programmiert.
 Das Ereignis im Falle einer Kollision haben wir mit „if(isTouching(name.class)) und „setLocation(x,y)“ definiert. 
-<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Turtle.PNG" width="600px">
+<p align="center"><img src="https://github.com/bananows/Crazy-Lab/blob/main/Images/Turtle.PNG" width="800px">
 
 <h2 id="wall">Wall</h2>
 
