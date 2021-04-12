@@ -18,7 +18,7 @@ Auf dieser Seite präsentieren wir unser Spiel und bieten Einblicke in die Mecha
     + <a href="#actor">Actor</a>   
     + <a href="#turtle">Turtle</a>
     + <a href="#wall">Wall</a>
-    + <a href="#blinkende-schrift">Blinkende-Schrift</a>
+    + <a href="#rocket">Rocket</a>
 
 
 <h2>Programmierung</h2>
