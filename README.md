@@ -51,3 +51,6 @@ Die Bewegung nach vorne ist dauerhaft mit „move(1)“ bestimmt.
 Die Bewegung in die bestimmten Richtungen haben wir mit „if(Greenfoot.isKeyDown(„Taste“)) und „setRotation(„Gradzahl“) programmiert.
 Das Ereignis im Falle einer Kollision haben wir mit „if(isTouching(name.class)) und „setLocation(x,y)“ definiert. 
 
+
+<h2>Wall</h2>
+
