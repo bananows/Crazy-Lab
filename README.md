@@ -14,7 +14,7 @@ Auf dieser Seite präsentieren wir unser Spiel und bieten Einblicke in die Mecha
 * <a href="#spielprinzip">Spielprinzip</a>
 * <a href="#greenfoot">Greenfoot!</a>
 * <a href="#programmierung">Programmierung</a>
-    + <a href="#myeorld">MyWorld</a>
+    + <a href="#myworld">MyWorld</a>
     + <a href="#actor">Actor</a>   
     + <a href="#turtle">Turtle</a>
     + <a href="#wall">Wall</a>
