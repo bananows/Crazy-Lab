@@ -14,7 +14,7 @@ Auf dieser Seite präsentieren wir unser Spiel und bieten Einblicke in die Mecha
 * <a href="#spielprinzip">Spielprinzip</a>
 * <a href="#greenfoot">Greenfoot!</a>
 * <a href="#programmierung">Programmierung</a>
-    + <a href="#grundbewegung">Grundbewegung</a>
+    + <a href="#myworld">MyWorld</a>
     + <a href="#spritefunktion">Spritefunktion</a>   
     + <a href="#eraser">Eraser</a>
     + <a href="#apfel">Apfel</a>
@@ -35,7 +35,7 @@ Greenfoot ist eine Programmiersprache, welche auf Java beruht. Sie wird hauptsä
 
 <h2 id="programmierung">Programmierung</h2>
 
-<h2>MyWorld</h2>
+<h2 id="myworld">MyWorld</h2>
 
 Die MyWorldklasse dient zur Definition der allgemeinen Gegebenheiten in unserem Programm. Ein Teil der MyWorldklasse ist ein Bereich mit dem Titel „public MyWorld“, welcher für alle Actor öffentlich Informationen zu den allgemeinen Variablen bereitstellt, auf welche jeder Actor zugreifen kann. In ihm sind bei uns die Variablen „wall“, „rocket“ und „turtle“ definiert und die Position, an welcher sie zu Beginn des Spiels platziert werden.
 Unter dem Methodenteil, mit dem Befehl „private void prepare()“, sind all unsere Wände mit ihrer Länge und Breite definiert und platziert. Das Besondere ist, dass alle Wände in die Klasse des Actors „wall“ fallen und somit die gleichen Eigenschaften haben. Es wird lediglich eine Kopie erstellt, welche am entsprechenden Ort platziert wird. Zu Angabe der Position werden x- und y- Koordinaten benutzt, genau so wie zur Angabe von Breite und Länge. Die Besonderheit bei der Greenfootprogrammierung ist, dass die x-Achse als Spiegelachse für das Koordinatensystem dient. 
