@@ -14,7 +14,7 @@ Auf dieser Seite präsentieren wir unser Spiel und bieten Einblicke in die Mecha
 * <a href="#spielprinzip">Spielprinzip</a>
 * <a href="#greenfoot">Greenfoot!</a>
 * <a href="#programmierung">Programmierung</a>
-    + <a href="#myworld">MyWorld</a>
+    + <a href="#grundbewegung">Grundbewegung</a>
     + <a href="#spritefunktion">Spritefunktion</a>   
     + <a href="#eraser">Eraser</a>
     + <a href="#apfel">Apfel</a>
@@ -35,8 +35,19 @@ Greenfoot ist eine Programmiersprache, welche auf Java beruht. Sie wird hauptsä
 
 <h2 id="programmierung">Programmierung</h2>
 
-<h2 id="myworld">MyWorld</h2>
+<h2>MyWorld</h2>
 
 Die MyWorldklasse dient zur Definition der allgemeinen Gegebenheiten in unserem Programm. Ein Teil der MyWorldklasse ist ein Bereich mit dem Titel „public MyWorld“, welcher für alle Actor öffentlich Informationen zu den allgemeinen Variablen bereitstellt, auf welche jeder Actor zugreifen kann. In ihm sind bei uns die Variablen „wall“, „rocket“ und „turtle“ definiert und die Position, an welcher sie zu Beginn des Spiels platziert werden.
 Unter dem Methodenteil, mit dem Befehl „private void prepare()“, sind all unsere Wände mit ihrer Länge und Breite definiert und platziert. Das Besondere ist, dass alle Wände in die Klasse des Actors „wall“ fallen und somit die gleichen Eigenschaften haben. Es wird lediglich eine Kopie erstellt, welche am entsprechenden Ort platziert wird. Zu Angabe der Position werden x- und y- Koordinaten benutzt, genau so wie zur Angabe von Breite und Länge. Die Besonderheit bei der Greenfootprogrammierung ist, dass die x-Achse als Spiegelachse für das Koordinatensystem dient. 
+
+<h2>Actor</h2>
+
+Ein Actor ist ein Objekt , welches in der Greenfootwelt existiert. Jeder Actor hat eine bestimmte Position und ein individuelles Aussehen in der Welt. Verschiedene Objekte können als Unterklassen des Actors erschaffen und definiert werden. Im Editor der Actorklassen können mithilfe der „act“-Methode die Funktionen der jeweiligen Actor beim Start des Spiels bestimmt werden.
+
+<h2>Turtle</h2>
+
+Die Turtleklasse ist die erste Unterklasse der Actor und sie definiert unseren Hauptspielcharakter. In ihr steckt das Aussehen einer Schildkröte, ihre Größe und ihre Funktionen. Die Funktionen sind hierbei die Steuerung und das Ereignis bei einer Kollision mit der Wand. Die Schildkröte kann mit den Pfeiltasten in die jeweilige Richtung der Pfeile bewegt werden. Bei einer Kollision mit der Wand wird die Schildkröte wieder an den Start gesetzt. 
+Die Bewegung nach vorne ist dauerhaft mit „move(1)“ bestimmt. 
+Die Bewegung in die bestimmten Richtungen haben wir mit „if(Greenfoot.isKeyDown(„Taste“)) und „setRotation(„Gradzahl“) programmiert.
+Das Ereignis im Falle einer Kollision haben wir mit „if(isTouching(name.class)) und „setLocation(x,y)“ definiert. 
 
